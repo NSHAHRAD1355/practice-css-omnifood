@@ -126,3 +126,60 @@ header {
 
 }
 
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color:#e67e22 ;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.long-copy {
+
+    margin-left: 15%;
+    width: 70%;
+    line-height: 140%;
+}
+
+.box {
+    padding: 1%;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 110%;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.box p {
+
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.icon-big {
+    font-size: 400%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
