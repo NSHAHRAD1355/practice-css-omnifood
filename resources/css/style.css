@@ -85,3 +85,44 @@ header {
 
 }
 
+.logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top:50px;
+    margin-right: 80px;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+
+.main-nav li a:link ,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    padding: 8px 0;
+    font-size: 90%;
+    transition: border-bottom 0.4s;
+
+}
+
+.main-nav li a:hover ,
+.main-nav li a:active {
+    border-bottom: 1px solid #e67e22 ;
+
+}
+
