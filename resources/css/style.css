@@ -13,6 +13,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom:1}
+
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -182,4 +193,138 @@ h3 {
     color: #e67e22;
     margin-bottom: 10px;
 }
+
+.meals-showcase {
+    width: 100%;
+    list-style: none;
+}
+
+.meals-showcase li {
+    display:block;
+    float:left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s , opacity 0.5s;
+    opacity: 0.7;
+}
+.meal-photo img:hover {
+ 
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+
+.section-meals {
+    padding: 0;
+   
+}
+
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 4%;
+    margin-top: 30px;
+
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+  
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+ margin-bottom: 50px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 50%;
+    display:block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    font-size: 150%;
+    margin-right: 50px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+
+}
+
+.works-step:nth-last-of-type() {
+
+    margin-bottom: 80px;
+}
+
+
+
+.section-steps {
+    background-color: #ecf2f5;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.icon-small {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+a:link ,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.8s , color 0.8s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+
+}
+
 
